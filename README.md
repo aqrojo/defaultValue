@@ -30,7 +30,6 @@ La situación crece a medida que la profundidad del objeto se incrementa y más 
 const firstItemValue = itemList &&
                        itemList.collection && 
                        itemList.collection.length > 0 &&
-                       itemList.collection[0] &&
                        itemList.collection[0].value ||
                        -1
 ````
